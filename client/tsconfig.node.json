@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  /* Build tooling runs under Node rather than in the browser, so it typechecks on its own */
+  "include": ["vite.config.ts", "vitest.config.ts"]
+}
